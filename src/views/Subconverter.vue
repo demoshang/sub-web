@@ -755,7 +755,7 @@ export default {
   },
   mounted() {
     this.form.clientType = "auto";
-    this.notify();
+    // this.notify();
     this.getBackendVersion();
   },
   methods: {
