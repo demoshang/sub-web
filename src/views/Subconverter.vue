@@ -685,7 +685,7 @@ export default {
         sourceSubUrl: "",
         clientType: "",
         customBackend: new URL("/sub?", window.location.origin).toString(),
-        remoteConfig: "Basic(仅GEOIP CN + Final)",
+        remoteConfig: "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/special/basic.ini",
         excludeRemarks: "",
         includeRemarks: "",
         filename: "",
