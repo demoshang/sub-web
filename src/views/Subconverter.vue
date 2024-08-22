@@ -226,6 +226,15 @@ export default {
         backendOptions: [{ value: new URL("/sub?", window.location.origin).toString() }],
         remoteConfig: [
           {
+            label: "custom",
+            options: [
+              {
+                label: 'custom-ruleset',
+                value: 'https://gist.githubusercontent.com/demoshang/64e492cad72c9c22a7a2184dace300ff/raw/custom-ruleset.ini'
+              }
+            ]
+          },
+          {
             label: "universal",
             options: [
               {
@@ -681,7 +690,7 @@ export default {
         sourceSubUrl: "",
         clientType: "",
         customBackend: new URL("/sub?", window.location.origin).toString(),
-        remoteConfig: "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/special/basic.ini",
+        remoteConfig: 'https://gist.githubusercontent.com/demoshang/64e492cad72c9c22a7a2184dace300ff/raw/custom-ruleset.ini',
         excludeRemarks: "",
         includeRemarks: "",
         filename: "",
